@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-f8pnyxm9h8yqy)9zg-d^-k6!&ke0a0mq1j9je@_vo6n+5fqqer
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '0.0.0.0',
     'insulin-calculator-backend.herokuapp.com',
 ]
 
