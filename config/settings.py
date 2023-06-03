@@ -33,6 +33,7 @@ else:
 ALLOWED_HOSTS = [
     '0.0.0.0',
     'insulin-calculator-backend.herokuapp.com',
+    'armoschiano.pythonanywhere.com',
 ]
 
 
