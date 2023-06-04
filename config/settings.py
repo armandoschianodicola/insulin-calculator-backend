@@ -141,5 +141,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:4200',
-    'https://www.pythonanywhere.com/user/armoschiano/'
+    'https://insulin-calculator-b4ee4.firebaseapp.com/',
 ]
