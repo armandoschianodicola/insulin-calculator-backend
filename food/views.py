@@ -77,8 +77,8 @@ class FoodDetailApiView(APIView):
                 status=status.HTTP_400_BAD_REQUEST
             )
         data = {
-            'name': request.data.get('name'),
-            'carbs': request.data.get('carbs'),
+            'name': request.data.get('name', food_instance.name),
+            'carbs': request.data.get('carbs', food_instance.carbs),
             'user': request.user.id
         }
         serializer = FoodSerializer(instance=food_instance, data=data, partial=True)

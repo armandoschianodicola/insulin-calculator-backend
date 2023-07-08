@@ -6,5 +6,5 @@ from .views import (
 
 urlpatterns = [
     path('api', FoodListApiView.as_view()),
-    path('api/<int:food_id>/', FoodDetailApiView.as_view()),
+    path('api/<int:food_id>', FoodDetailApiView.as_view()),
 ]
