@@ -53,9 +53,9 @@ class FoodDetailApiView(APIView):
             return None
 
     def get(self, request, food_id, *args, **kwargs):
-        '''
+        """
         Retrieves the food with given food_id
-        '''
+        """
         food_instance = self.get_object(food_id)
         if not food_instance:
             return Response(
